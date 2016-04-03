@@ -6,5 +6,6 @@ public class Main {
 	System.err.println("Begin");
         System.err.println("new branch");
         System.err.println("another commit");
+        System.err.println("another commit");
     }
 }
