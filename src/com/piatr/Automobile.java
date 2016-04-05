@@ -2,9 +2,10 @@ package com.piatr;
 
 
 public class Automobile {
-    enum CarSize {SMALL, MEDIUM, LARGE}
 
+    enum CarSize {SMALL, MEDIUM, LARGE}
     private CarSize size;
+    
      public static void main(String[] args){
          Automobile car = new Automobile();
          car.size = CarSize.LARGE;
