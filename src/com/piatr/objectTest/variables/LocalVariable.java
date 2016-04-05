@@ -10,5 +10,6 @@ public class LocalVariable{
     public static void main(String args[]){
         LocalVariable test = new LocalVariable();
         test.pupAge();
+        System.out.println("done");
     }
 }
