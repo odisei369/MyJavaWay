@@ -20,7 +20,7 @@ public class InstanceVariable {
 
     // This method prints the employee details.
     public void printEmp(){
-        System.out.println("name  : " + name );
+        System.out.println("name :" + name );
         System.out.println("salary :" + salary);
     }
 
