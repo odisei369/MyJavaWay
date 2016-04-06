@@ -14,6 +14,10 @@ public class FinalMethod {
     }
 }
 
-class FinalMethodExtension extends FinalMethod{
+final class FinalMethodExtension extends FinalMethod{
     // You can't override method changeName because it's private
 }
+    /*You cannot inherit from final class
+    class NextExtensionFromFinalClass extends FinalMethodExtension{
+    }
+    */
